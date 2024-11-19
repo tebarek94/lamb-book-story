@@ -1,0 +1,39 @@
+.App{
+    height: 100vh;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.books{
+    display: flex;
+}
+.book{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: rgb(203, 238, 277);
+}
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    color: red;
+}
+.Update{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    color: green;
+}
